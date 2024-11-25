@@ -9,8 +9,8 @@ import android.widget.TextView;
 import androidx.recyclerview.widget.RecyclerView;
 
 public class FoodAdapter extends RecyclerView.Adapter<FoodAdapter.ViewHolder> {
-    private String[] foodItems; // The food items
-    private Integer[] img; // The image resources
+    private String[] foodItems;
+    private Integer[] img;
     private Context context;
 
     public FoodAdapter(Context context, String[] foodItems, Integer[] img) {
@@ -19,7 +19,6 @@ public class FoodAdapter extends RecyclerView.Adapter<FoodAdapter.ViewHolder> {
         this.img = img;
     }
 
-    // ViewHolder class for RecyclerView
     public static class ViewHolder extends RecyclerView.ViewHolder {
         TextView title;
         ImageView imageView;

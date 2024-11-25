@@ -16,10 +16,9 @@ public class FoodListActivity extends AppCompatActivity {
 
         recyclerView = findViewById(R.id.recyclerView);
 
-        // Get the food names from the string array
+
         String[] foodItems = getResources().getStringArray(R.array.food_items);
 
-        // Image resources for the food items (replace with actual images)
         Integer[] imgId = {
                 R.drawable.burger,
                 R.drawable.pizza,
@@ -33,9 +32,8 @@ public class FoodListActivity extends AppCompatActivity {
                 R.drawable.fried_chicken
         };
 
-        // Set up RecyclerView
         FoodAdapter adapter = new FoodAdapter(this, foodItems, imgId);
-        recyclerView.setLayoutManager(new LinearLayoutManager(this));  // Set the LayoutManager
-        recyclerView.setAdapter(adapter);  // Set the Adapter
+        recyclerView.setLayoutManager(new LinearLayoutManager(this));
+        recyclerView.setAdapter(adapter);
     }
 }
