@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Task_5</string>
+
+    <!-- Add this array for food items -->
+    <string-array name="food_items">
+        <item>Burger</item>
+        <item>Pizza</item>
+        <item>Sushi</item>
+        <item>Pasta</item>
+        <item>Steak</item>
+        <item>Salad</item>
+        <item>Dessert</item>
+        <item>Tacos</item>
+        <item>Ramen</item>
+        <item>Fried Chicken</item>
+    </string-array>
+</resources>
